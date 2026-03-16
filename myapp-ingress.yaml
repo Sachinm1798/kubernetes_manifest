@@ -10,7 +10,7 @@ spec:
     http:
       paths:
       - backend:
-           serviceName: myapp-internal-service  #internal service which ingress is connected
+           serviceName: myapp-internal-service  #internal service to which ingress is connected
            servicePort: 8080 #ingress forward to clusterIP:port
 
 ---
